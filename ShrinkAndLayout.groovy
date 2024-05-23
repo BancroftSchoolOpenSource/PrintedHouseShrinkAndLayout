@@ -32,5 +32,6 @@ for(int i=0;i<listOfFiles.length;i++) {
 	get.setName(file.getName())
 	stls.add(get)
 }
+println "Loaded houses # "+stls.size()
 
 return stls
